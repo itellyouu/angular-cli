@@ -12,6 +12,8 @@ var dashboard = new Dashboard();
 compiler.apply(new DashboardPlugin(dashboard.setData));
 
 app.use(devMiddleware(compiler,{
+	quiet: true,
+	noInfo: true,
 	stats: {
 		colors: true
 	}
