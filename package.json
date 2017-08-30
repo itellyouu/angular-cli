@@ -9,9 +9,6 @@
   },
   "author": "tooyoung",
   "license": "MIT",
-  "bin": {
-    "angular": "./bin/cli"
-  },
   "dependencies": {
     "angular": "1.2.32",
     "angular-ui-router": "0.2.10"
