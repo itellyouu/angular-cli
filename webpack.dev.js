@@ -1,5 +1,5 @@
 var devMiddleware = require('webpack-dev-middleware');
-var config = require('./webpack.config')
+var config = require('./webpack.config.dev')
 var express = require('express')
 var webpack = require('webpack')
 var app = express()

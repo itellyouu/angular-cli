@@ -50,11 +50,6 @@ module.exports = {
       title: 'NgApp',
       template: './src/template.js'
     }),
-    new webpack.optimize.UglifyJsPlugin({
-        compress: {
-          warnings: false
-        }
-      }
-    ),
+    new DashboardPlugin()
   ]
 };
